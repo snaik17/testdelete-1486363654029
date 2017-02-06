@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testdelete
+  host: testdelete
+  disk_quota: 1024M
+  services:
+  - testdelete-cloudantNoSQLDB
